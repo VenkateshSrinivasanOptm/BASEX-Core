@@ -1,0 +1,9 @@
+backtrace full
+info frame
+info sharedLibrary
+info threads
+info all-registers
+x/16i $pc
+thread apply all backtrace
+quit
+

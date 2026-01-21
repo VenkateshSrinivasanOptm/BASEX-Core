@@ -1,0 +1,54 @@
+Application Manager
+
+The Application Managers function is to start the MW and UI via QProcess.
+
+The modules it starts are defined via a configuration file. The code uses the environment variable APPMAN_CFG_FILE to locate the file. Otherwise it defauls to looking in a relative location of "impl/resources/appman".
+
+The content of this config file is -
+numProcesses:3
+startupTimeout:60000
+shutdownTimeout:30000
+heartbeatMS:20000
+stabilityTimeout:600000
+minEPGhrs:12
+appName:dataSync
+ pathName:./datasync
+ serviceName:MMDDF_WRITER_SERV
+  serviceId:6
+appName:mmddf
+ pathName:./mmddf
+ serviceName:MMDDF_SERV
+  serviceId:18
+appName:dtvservice
+ pathName:./dtvservice
+ serviceName:DTV_SERV
+  serviceId:8
+  docName:DTVLINEUP
+   docPriority:3
+  docName:PIPEDSCHEDULE
+   docPriority:4
+
+Each started child process has an entry in the log of format -
+appName:<name of child process>
+ pathName:<path and filename of the process>
+
+Each child process must also define the MW services it contains and so zero or more services can be specified via the line
+ serviceName: <name of service as defined in the communications library interface>
+  serviceId: <The serviceId number as defined in the communications library interface>
+
+Each Service may require one or more broker documents. These can be defined via zero or more lines of the following -
+  docName:<name of the broker document>
+   docPriority:<relative download priority of the document
+
+At the top of the config file are defined several parameters specific to the Application Manager. These are
+numProcesses: - The number of child processes to be started. Application Manager will use this number when parsing the file for application names rather than reading to EOF. This allows you to include additional details of processes that will not be started.
+startupTimeout: - This is the number of millisecs that will be allowed to elapse for startup to complete. If this timeout is reached then the Application Manager will assume that there is a problem and will try to restart
+shutdownTimeout: - This is the number of millisecs that the Application Manager will wait for child processes to terminate. If the timer expires then Application Manager will kill the remaining children.
+heartbeatMS:- This is the duration in millisecs between heartbeat pulses
+stabilityTimeout: - This is the timeout in millisecs after which a MW restart will become an STB restart. So, if the Application Manager fails to achive several startup attempts such that this timer fires then it will instead reboot the STB.
+minEPGhrs: - This is used by the business startup logic to dictate the number of hours of Electronic Program Guide to download to the STB database.
+
+
+The Application Manager also requires a config file for communication concerning Software or Skin download. This config file is in the format as specified by the communications library. Its name is appman.cfg. It should be located at "../resources/appman.cfg"
+
+The Application Manager also uses stdio for communication with its child processes and so only stderr may be used for debug output.

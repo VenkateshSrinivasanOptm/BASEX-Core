@@ -1,0 +1,49 @@
+numProcesses:5
+startupTimeouut:1000
+shutdownTimeout:1000
+heartbeatMS:20000
+gdbScriptFile:../resources/gdbScript
+UIrestartRequestTimeout:1000
+stabilityTimeout:6000
+appName:ui
+ pathName:$MW_ROOTDIR/mwapp
+appName:MMDDF
+ pathName:$MW_ROOTDIR/mwapp
+ serviceName:mmddfReaderService
+  serviceId:1
+  docName:Downpipes
+   docPriority:6
+  docName:HappyBeans
+   docPriority:5
+  docName:TheBestBroker
+   docPriority:3
+ serviceName1:mmddfWriterService
+  serviceId:1
+appName:DTV
+ pathName:$MW_ROOTDIR/mwapp
+ serviceName:dtvService
+  serviceId:1
+  docName:TheBestBroker
+   docPriority:3
+appName:daisy
+ pathName:$MW_ROOTDIR/mwapp
+ serviceName:dtvService
+  serviceId:1
+appName:loopy
+ pathName:$MW_ROOTDIR/mwapp
+ serviceName:dtvService
+ serviceId:1
+  docName:SugerPops
+   docPriority:1
+  docName:SaferSurfing
+   docPriority:2
+  docName:IBrokerSystem
+   docPriority:4
+  docName:HappyBeans
+   docPriority:5
+  docName:RattlesAndBangs
+   docPriority:7
+  docName:DocAdventures
+   docPriority:8
+  docName:HappyBeansRevisited
+   docPriority:9

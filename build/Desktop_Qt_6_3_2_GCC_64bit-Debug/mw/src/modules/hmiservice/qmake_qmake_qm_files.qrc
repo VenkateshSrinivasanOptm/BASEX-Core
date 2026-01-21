@@ -1,0 +1,8 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="i18n">
+<file alias="BaseX_Hmi_Eng.qm">/home/venkatesh/Desktop/Base X Core/BaseXCore/build/Desktop_Qt_6_3_2_GCC_64bit-Debug/mw/src/modules/hmiservice/.qm/BaseX_Hmi_Eng.qm</file>
+<file alias="BaseX_Hmi_Hin.qm">/home/venkatesh/Desktop/Base X Core/BaseXCore/build/Desktop_Qt_6_3_2_GCC_64bit-Debug/mw/src/modules/hmiservice/.qm/BaseX_Hmi_Hin.qm</file>
+<file alias="BaseX_Hmi_Eng.qm">/home/venkatesh/Desktop/Base X Core/BaseXCore/build/Desktop_Qt_6_3_2_GCC_64bit-Debug/mw/src/modules/hmiservice/.qm/BaseX_Hmi_Eng.qm</file>
+<file alias="BaseX_Hmi_Hin.qm">/home/venkatesh/Desktop/Base X Core/BaseXCore/build/Desktop_Qt_6_3_2_GCC_64bit-Debug/mw/src/modules/hmiservice/.qm/BaseX_Hmi_Hin.qm</file>
+</qresource>
+</RCC>

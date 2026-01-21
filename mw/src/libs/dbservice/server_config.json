@@ -1,0 +1,42 @@
+{
+  "ElectricalOld": {
+    "Voltage_V1_Lower_Limit": 180,
+    "Voltage_V1_Upper_Limit": 264,
+    "Voltage_V2_Lower_Limit": 180,
+    "Voltage_V2_Upper_Limit": 264,
+    "Voltage_V3_Lower_Limit": 180,
+    "Voltage_V3_Upper_Limit": 264,
+    "Average_Current_Max": 35,
+    "Total_KW": 19,
+    "Average_PF": 0.8,    
+    "Frequency_Lower_Limit": 49.5,
+    "Frequency_Upper_Limit": 50.5,
+    "Max_Total_Power_Limit_at_Infra": 0,
+    "Power_Factor_Less_Than_Or_Equal_To": 0,
+    "Frequency_Lower_Limit": 0,
+    "Frequency_Upper_Limit": 0
+  },
+  "System": {
+    "Slot_Count": 9,
+    "Max_Charger_Current": "[00-19]",
+    "Max_Charger_Voltage": "[00-19]",
+    "Battery_Temperature_Session_Charge_Cut_Off": 0,
+    "Battery_Temperature_Start_Charge_Cut_Off": 0,
+    "Delta_SOC%_Restricted_For_Multiple_Battery_Swap/Pick": 0,
+    "Max_SOC%_Available_For_Pick/Swap": 0,
+    "DNS/IP": "",
+    "PORT": 0,
+    "WIFI_SSID": "",
+    "WIFI_ACCESS-POINT_NAME": "",
+    "WIFI_ACCESS-POINT_PASSWORD": "",
+    "SYSTEM_MODE": "",
+    "Heart-Beat_Packet_Every_Seconds": 0,
+    "System-Health_Packet_Every_Seconds": 0,
+    "Battery-Health_Packet_Every_Seconds": 0,
+    "Swap_Session-Packet_Every_Seconds": 0,
+    "Alert_Event_Packet_Immediate": "",
+    "Reserved_1-5": ""
+  }
+  }
+
+

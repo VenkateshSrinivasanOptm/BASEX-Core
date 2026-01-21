@@ -1,0 +1,22 @@
+numProcesses:4
+startupTimeout:60000
+shutdownTimeout:60000
+heartbeatMS:60000
+gdbScriptFile:../resources/gdbScript
+stabilityTimeout:600000
+appName:dbservice
+ pathName:./dbservice
+ serviceName:DB_SERV
+  serviceId:1
+appName:canservice
+ pathName:./canservice
+ serviceName:CAN_SERV
+  serviceId:4
+  appName:downloadservice
+ pathName:./downloadservice
+ serviceName:DOWNLOAD_SERV
+  serviceId:22
+  appName:uploadservice
+ pathName:./uploadservice
+ serviceName:UPLOAD_SERV
+  serviceId:19

@@ -1,0 +1,6 @@
+#ifndef MSGMANAGERIMPL_H
+#define MSGMANAGERIMPL_H
+
+#define MESSAGE_GUARD_CHAR '`'
+
+#endif // MSGMANAGERIMPL_H

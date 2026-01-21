@@ -1,0 +1,73 @@
+numProcesses:8
+startupTimeout:60000
+shutdownTimeout:60000
+heartbeatMS:60000
+gdbScriptFile:../resources/gdbScript
+stabilityTimeout:600000
+minEPGhrs:12
+appName:dataSync
+ pathName:./datasync
+ serviceName:MMDDF_WRITER_SERV
+  serviceId:6
+appName:mmddf
+ pathName:./mmddf
+ serviceName:MMDDF_SERV
+  serviceId:18
+appName:dtvservice
+ pathName:./dtvservice
+ serviceName:DTV_SERV
+  serviceId:8
+  docName:DTVLINEUP_v.3.1
+   docPriority:3
+  docName:PIPEDSCHEDULE
+   docPriority:4
+appName:PacMan
+ pathName:./pacman
+ serviceName:PACKAGE_MANAGER_SERV
+  serviceId:17
+  docName:GROUPS
+   docPriority:2
+  docName:GLOBALINSTALL
+   docPriority:1
+appName:OCIService
+ pathName:./oci
+ serviceName:OCI_SERV
+  serviceId:9
+  docName:GLOBALINSTALL
+   docPriority:1
+appName:OnDemand
+ pathName:./ondemandservice
+ serviceName:OD_SERV
+  serviceId:10
+  docName:GLOBALLYFEATURED
+   docPriority:7
+  docName:WEBACCESS
+   docPriority:5
+  docName:GLOBALINSTALL
+   docPriority:1
+appName:RCService
+  pathName:./RCService
+  serviceName:RESOURCE_CONTROLLER_SERV
+   serviceId:14
+   docName:GLOBALINSTALL
+    docPriority:1
+appName:pvrService
+  pathName:./pvrservice
+  serviceName:PVR_SERV
+    serviceId:13
+     docName:NPVRUPDATEDRECORDINGS
+     docPrioriy:8
+     docName:STBCONFIG
+     docPrioriy:6
+     docName:VQECHANNELCONFIG
+     docPrioriy:9
+     docName:VQENETWORKCONFIG
+     docPrioriy:10
+     docName:MESSAGES
+     docPrioriy:11
+appName:localservices
+ pathName:./localservices
+ serviceName:LOCAL_SERVICE_WRITER_SERV
+ serviceId:5
+
+

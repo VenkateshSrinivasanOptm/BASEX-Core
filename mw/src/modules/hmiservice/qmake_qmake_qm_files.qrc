@@ -1,0 +1,5 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="i18n">
+<file alias="Yuma_Hmi_hi_IN.qm">/home/venkatesh/workspace/yuma/source/SmartDisplay/yuma/mw/src/modules/hmiservice/.qm/Yuma_Hmi_hi_IN.qm</file>
+</qresource>
+</RCC>

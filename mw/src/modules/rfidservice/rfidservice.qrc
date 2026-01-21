@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>rfidservice.cfg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>wifiservice.cfg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,86 @@
+﻿{
+    "BATT_OPS": {
+        "BATT_MAX_SOC%_AVAIL": null,
+        "DELTA_SOC%_MULTI_BATT": null
+    },
+    "Charging": {
+        "BATT_TEMP_DURING_CHRG_CUT-OFF": null,
+        "BATT_TEMP_TO_STRT_CHRG": null,
+        "CHG01_Max_Output(Current)": null,
+        "CHG02_Max_Output(Current)": null,
+        "CHG03_Max_Output(Current)": null,
+        "CHG04_Max_Output(Current)": null,
+        "CHG05_Max_Output(Current)": null,
+        "CHG06_Max_Output(Current)": null,
+        "CHG07_Max_Output(Current)": null,
+        "CHG08_Max_Output(Current)": null,
+        "CHG09_Max_Output(Current)": null,
+        "CHG10_Max_Output(Current)": null,
+        "CHG11_Max_Output(Current)": null,
+        "CHG12_Max_Output(Current)": null,
+        "CHG13_Max_Output(Current)": null,
+        "CHG14_Max_Output(Current)": null,
+        "CHG15_Max_Output(Current)": null,
+        "CHG16_Max_Output(Current)": null,
+        "CHG17_Max_Output(Current)": null,
+        "CHG18_Max_Output(Current)": null,
+        "CHG19_Max_Output(Current)": null,
+        "CHG20_Max_Output(Current)": null,
+        "CHG_00_CHARGING_ON/OFF": null,
+        "CHG_01_CHARGING_ON/OFF": null,
+        "CHG_03_CHARGING_ON/OFF": null,
+        "CHG_04_CHARGING_ON/OFF": null,
+        "CHG_05_CHARGING_ON/OFF": null,
+        "CHG_06_CHARGING_ON/OFF": null,
+        "CHG_07_CHARGING_ON/OFF": null,
+        "CHG_08_CHARGING_ON/OFF": null,
+        "CHG_09_CHARGING_ON/OFF": null,
+        "CHG_10_CHARGING_ON/OFF": null,
+        "CHG_11_CHARGING_ON/OFF": null,
+        "CHG_12_CHARGING_ON/OFF": null,
+        "CHG_13_CHARGING_ON/OFF": null,
+        "CHG_14_CHARGING_ON/OFF": null,
+        "CHG_15_CHARGING_ON/OFF": null,
+        "CHG_16_CHARGING_ON/OFF": null,
+        "CHG_17_CHARGING_ON/OFF": null,
+        "CHG_18_CHARGING_ON/OFF": null,
+        "CHG_19_CHARGING_ON/OFF": null
+    },
+    "Device": {
+        "BLE_DEFAULT_KEY": null,
+        "BLE_SESSION_KEY": null,
+        "RESERVED": null,
+        "SERVER_DNS/IP": null,
+        "SERVER_PORT": null,
+        "WIFI_MACID": null,
+        "WIFI_PASSWORD": "sowndarya",
+        "WIFI_SSID": "Venki"
+    },
+    "Electrical": {
+        "EM_AVG_CURRENT": null,
+        "EM_FREQ_LWR_LIMIT": null,
+        "EM_FREQ_UPR_LIMIT": null,
+        "EM_PF_LWR_LIMIT": null,
+        "EM_PF_UPR_LIMIT": null,
+        "EM_VOLTAGE_OV1": 264,
+        "EM_VOLTAGE_OV2": 264,
+        "EM_VOLTAGE_OV3": 264,
+        "EM_VOLTAGE_UV1": 180,
+        "EM_VOLTAGE_UV2": 180,
+        "EM_VOLTAGE_UV3": 180,
+        "SYSTM_PWR_LIMIT": null
+    },
+    "HVAC": {
+        "HVAC_ON/OFF": null,
+        "SET_CABINET_COOLING_TEMP": null,
+        "SET_DELTA_COOLING_TEMP": null
+    },
+    "PING FREQ": {
+        "BATTERY-HEALTH": 32,
+        "HEART-BEAT": null,
+        "SYSTEM-HEALTH": null
+    },
+    "SYSTEM": {
+        "SYSTEM_MODE_ENUM": null
+    }
+}

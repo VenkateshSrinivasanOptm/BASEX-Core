@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>dbservice.cfg</file>
+        <file>config.json</file>
+    </qresource>
+</RCC>
